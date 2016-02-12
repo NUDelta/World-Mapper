@@ -50,8 +50,8 @@
 		BA3A4D331C6D86A000765904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA3A4D381C6D86A000765904 /* World MapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World MapperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3A4D431C6D86A000765904 /* World MapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World MapperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA3A4D8F1C6D8C3800765904 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../fggfg/fggfg/AppDelegate.swift; sourceTree = "<group>"; };
-		BA3A4D911C6D8C3E00765904 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../fggfg/fggfg/ViewController.swift; sourceTree = "<group>"; };
+		BA3A4D8F1C6D8C3800765904 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		BA3A4D911C6D8C3E00765904 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		BABB61341C6D93C8003D3E71 /* World Mapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Mapper-Bridging-Header.h"; sourceTree = "<group>"; };
 		BABB61361C6D941A003D3E71 /* DataEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEvent.swift; sourceTree = "<group>"; };
 		BABB61371C6D941A003D3E71 /* Experience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
