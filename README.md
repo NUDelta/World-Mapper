@@ -1,4 +1,4 @@
-![alt tag](https://raw.github.com/NUDelta/World-Mapper/master/screenshot.png)
+<img src="https://raw.githubusercontent.com/NUDelta/World-Mapper/master/screenshot.PNG?token=ACehJgfPxPRDf0bs2ZlIQ-yHZmlHsswjks5WxqyowA%3D%3D" width="650"/>
 
 # What is World Mapper?
 World Mapper is a simple app for recording WorldObjects manually into your Parse database if you are using the ExperienceKit architecture. It can be easily added to or modified to suit individual needs. For example if you want to add or change what kind of objects you want to record, need to change the object class that gets saved, need to change how/where objects get saved, etc. Ask your doctor if World Mapper is right for you.
