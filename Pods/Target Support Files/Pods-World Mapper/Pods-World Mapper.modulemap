@@ -1,0 +1,6 @@
+framework module Pods_World_Mapper {
+  umbrella header "Pods-World Mapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

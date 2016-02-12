@@ -1,0 +1,6 @@
+framework module Pods_World_MapperTests {
+  umbrella header "Pods-World MapperTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA3A4D241C6D86A000765904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D231C6D86A000765904 /* main.m */; };
-		BA3A4D271C6D86A000765904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D261C6D86A000765904 /* AppDelegate.m */; };
-		BA3A4D2A1C6D86A000765904 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D291C6D86A000765904 /* ViewController.m */; };
+		9CFCC31C78A3C3A1594E8A99 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C70CCE680A20D3496F374FF /* Pods.framework */; };
+		AC4D4A90586C2538FBF0C736 /* Pods_World_Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83B75DAA94B2571A538CDF9 /* Pods_World_Mapper.framework */; };
 		BA3A4D2D1C6D86A000765904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3A4D2B1C6D86A000765904 /* Main.storyboard */; };
 		BA3A4D2F1C6D86A000765904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3A4D2E1C6D86A000765904 /* Assets.xcassets */; };
 		BA3A4D321C6D86A000765904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3A4D301C6D86A000765904 /* LaunchScreen.storyboard */; };
 		BA3A4D3D1C6D86A000765904 /* World_MapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D3C1C6D86A000765904 /* World_MapperTests.m */; };
 		BA3A4D481C6D86A000765904 /* World_MapperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D471C6D86A000765904 /* World_MapperUITests.m */; };
+		BA3A4D901C6D8C3800765904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D8F1C6D8C3800765904 /* AppDelegate.swift */; };
+		BA3A4D921C6D8C3E00765904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D911C6D8C3E00765904 /* ViewController.swift */; };
+		BABB613C1C6D941A003D3E71 /* DataEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB61361C6D941A003D3E71 /* DataEvent.swift */; };
+		BABB613D1C6D941A003D3E71 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB61371C6D941A003D3E71 /* Experience.swift */; };
+		BABB613E1C6D941A003D3E71 /* LocationUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB61381C6D941A003D3E71 /* LocationUpdate.swift */; };
+		BABB613F1C6D941A003D3E71 /* MotionActivityUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB61391C6D941A003D3E71 /* MotionActivityUpdate.swift */; };
+		BABB61401C6D941A003D3E71 /* SensorMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB613A1C6D941A003D3E71 /* SensorMoment.swift */; };
+		BABB61411C6D941A003D3E71 /* WorldObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB613B1C6D941A003D3E71 /* WorldObject.swift */; };
+		BABB61431C6D947F003D3E71 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB61421C6D947F003D3E71 /* Keys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C70CCE680A20D3496F374FF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC11FDC9AA1CF03088A0611 /* Pods-World Mapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Mapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-World Mapper/Pods-World Mapper.release.xcconfig"; sourceTree = "<group>"; };
 		BA3A4D1F1C6D86A000765904 /* World Mapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Mapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA3A4D231C6D86A000765904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BA3A4D251C6D86A000765904 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BA3A4D261C6D86A000765904 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BA3A4D281C6D86A000765904 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BA3A4D291C6D86A000765904 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BA3A4D2C1C6D86A000765904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA3A4D2E1C6D86A000765904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA3A4D311C6D86A000765904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,18 @@
 		BA3A4D431C6D86A000765904 /* World MapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World MapperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3A4D471C6D86A000765904 /* World_MapperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_MapperUITests.m; sourceTree = "<group>"; };
 		BA3A4D491C6D86A000765904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3A4D8F1C6D8C3800765904 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../fggfg/fggfg/AppDelegate.swift; sourceTree = "<group>"; };
+		BA3A4D911C6D8C3E00765904 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../fggfg/fggfg/ViewController.swift; sourceTree = "<group>"; };
+		BABB61341C6D93C8003D3E71 /* World Mapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Mapper-Bridging-Header.h"; sourceTree = "<group>"; };
+		BABB61361C6D941A003D3E71 /* DataEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEvent.swift; sourceTree = "<group>"; };
+		BABB61371C6D941A003D3E71 /* Experience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		BABB61381C6D941A003D3E71 /* LocationUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationUpdate.swift; sourceTree = "<group>"; };
+		BABB61391C6D941A003D3E71 /* MotionActivityUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionActivityUpdate.swift; sourceTree = "<group>"; };
+		BABB613A1C6D941A003D3E71 /* SensorMoment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorMoment.swift; sourceTree = "<group>"; };
+		BABB613B1C6D941A003D3E71 /* WorldObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldObject.swift; sourceTree = "<group>"; };
+		BABB61421C6D947F003D3E71 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		E83B75DAA94B2571A538CDF9 /* Pods_World_Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_World_Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDA149C9BC80A1928C32317 /* Pods-World Mapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Mapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Mapper/Pods-World Mapper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4D4A90586C2538FBF0C736 /* Pods_World_Mapper.framework in Frameworks */,
+				9CFCC31C78A3C3A1594E8A99 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D59EFDE2040DCB62F2A824C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E83B75DAA94B2571A538CDF9 /* Pods_World_Mapper.framework */,
+				1C70CCE680A20D3496F374FF /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA3A4D161C6D86A000765904 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				BA3A4D3B1C6D86A000765904 /* World MapperTests */,
 				BA3A4D461C6D86A000765904 /* World MapperUITests */,
 				BA3A4D201C6D86A000765904 /* Products */,
+				DEB24EF9FC8A4F0387A21BAB /* Pods */,
+				3D59EFDE2040DCB62F2A824C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,25 +131,17 @@
 		BA3A4D211C6D86A000765904 /* World Mapper */ = {
 			isa = PBXGroup;
 			children = (
-				BA3A4D251C6D86A000765904 /* AppDelegate.h */,
-				BA3A4D261C6D86A000765904 /* AppDelegate.m */,
-				BA3A4D281C6D86A000765904 /* ViewController.h */,
-				BA3A4D291C6D86A000765904 /* ViewController.m */,
+				BABB61351C6D941A003D3E71 /* Parse */,
+				BA3A4D8F1C6D8C3800765904 /* AppDelegate.swift */,
 				BA3A4D2B1C6D86A000765904 /* Main.storyboard */,
+				BA3A4D911C6D8C3E00765904 /* ViewController.swift */,
 				BA3A4D2E1C6D86A000765904 /* Assets.xcassets */,
 				BA3A4D301C6D86A000765904 /* LaunchScreen.storyboard */,
 				BA3A4D331C6D86A000765904 /* Info.plist */,
-				BA3A4D221C6D86A000765904 /* Supporting Files */,
+				BABB61341C6D93C8003D3E71 /* World Mapper-Bridging-Header.h */,
+				BABB61421C6D947F003D3E71 /* Keys.swift */,
 			);
 			path = "World Mapper";
-			sourceTree = "<group>";
-		};
-		BA3A4D221C6D86A000765904 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BA3A4D231C6D86A000765904 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		BA3A4D3B1C6D86A000765904 /* World MapperTests */ = {
@@ -140,6 +162,29 @@
 			path = "World MapperUITests";
 			sourceTree = "<group>";
 		};
+		BABB61351C6D941A003D3E71 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				BABB61361C6D941A003D3E71 /* DataEvent.swift */,
+				BABB61371C6D941A003D3E71 /* Experience.swift */,
+				BABB61381C6D941A003D3E71 /* LocationUpdate.swift */,
+				BABB61391C6D941A003D3E71 /* MotionActivityUpdate.swift */,
+				BABB613A1C6D941A003D3E71 /* SensorMoment.swift */,
+				BABB613B1C6D941A003D3E71 /* WorldObject.swift */,
+			);
+			name = Parse;
+			path = "../../../../Fall15/EECS495-Zhang/Zombies-Interactive/Zombies Interactive/classes/ExperienceKit/Parse";
+			sourceTree = "<group>";
+		};
+		DEB24EF9FC8A4F0387A21BAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEDA149C9BC80A1928C32317 /* Pods-World Mapper.debug.xcconfig */,
+				7DC11FDC9AA1CF03088A0611 /* Pods-World Mapper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA3A4D4C1C6D86A000765904 /* Build configuration list for PBXNativeTarget "World Mapper" */;
 			buildPhases = (
+				B519766D39AF16188942E288 /* Check Pods Manifest.lock */,
 				BA3A4D1B1C6D86A000765904 /* Sources */,
 				BA3A4D1C1C6D86A000765904 /* Frameworks */,
 				BA3A4D1D1C6D86A000765904 /* Resources */,
+				4832284DCC6259F5512FBE73 /* Embed Pods Frameworks */,
+				D6E88C32193BD4309353F05E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +313,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4832284DCC6259F5512FBE73 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B519766D39AF16188942E288 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E88C32193BD4309353F05E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA3A4D1B1C6D86A000765904 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA3A4D2A1C6D86A000765904 /* ViewController.m in Sources */,
-				BA3A4D271C6D86A000765904 /* AppDelegate.m in Sources */,
-				BA3A4D241C6D86A000765904 /* main.m in Sources */,
+				BABB613F1C6D941A003D3E71 /* MotionActivityUpdate.swift in Sources */,
+				BA3A4D921C6D8C3E00765904 /* ViewController.swift in Sources */,
+				BA3A4D901C6D8C3800765904 /* AppDelegate.swift in Sources */,
+				BABB613C1C6D941A003D3E71 /* DataEvent.swift in Sources */,
+				BABB613E1C6D941A003D3E71 /* LocationUpdate.swift in Sources */,
+				BABB61411C6D941A003D3E71 /* WorldObject.swift in Sources */,
+				BABB613D1C6D941A003D3E71 /* Experience.swift in Sources */,
+				BABB61431C6D947F003D3E71 /* Keys.swift in Sources */,
+				BABB61401C6D941A003D3E71 /* SensorMoment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,19 +513,24 @@
 		};
 		BA3A4D4D1C6D86A000765904 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDA149C9BC80A1928C32317 /* Pods-World Mapper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "World Mapper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.henryspindell.World-Mapper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		BA3A4D4E1C6D86A000765904 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC11FDC9AA1CF03088A0611 /* Pods-World Mapper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "World Mapper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.henryspindell.World-Mapper";
@@ -498,6 +605,7 @@
 				BA3A4D4E1C6D86A000765904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA3A4D4F1C6D86A000765904 /* Build configuration list for PBXNativeTarget "World MapperTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +614,7 @@
 				BA3A4D511C6D86A000765904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA3A4D521C6D86A000765904 /* Build configuration list for PBXNativeTarget "World MapperUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +623,7 @@
 				BA3A4D541C6D86A000765904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B8F92AFC0593BFB17A527A0A3850C9062BA551DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B8F92AFC0593BFB17A527A0A3850C9062BA551DA" : 0,
+    "15CCBE0AF2B9E1CD1FA22E00BDBF6BF8D4B2F44B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A1D4EA27-04D5-493D-899D-A9EBAB429E94",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B8F92AFC0593BFB17A527A0A3850C9062BA551DA" : "World%20Mapper\/",
+    "15CCBE0AF2B9E1CD1FA22E00BDBF6BF8D4B2F44B" : "..\/..\/Fall15\/EECS495-Zhang\/Zombies-Interactive"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "World Mapper",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "World Mapper.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:NUDelta\/HabitSourceArchitecture.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15CCBE0AF2B9E1CD1FA22E00BDBF6BF8D4B2F44B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:NUDelta\/World-Mapper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B8F92AFC0593BFB17A527A0A3850C9062BA551DA"
+    }
+  ]
+}
