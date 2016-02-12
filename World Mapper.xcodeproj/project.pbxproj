@@ -12,8 +12,6 @@
 		BA3A4D2D1C6D86A000765904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3A4D2B1C6D86A000765904 /* Main.storyboard */; };
 		BA3A4D2F1C6D86A000765904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3A4D2E1C6D86A000765904 /* Assets.xcassets */; };
 		BA3A4D321C6D86A000765904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3A4D301C6D86A000765904 /* LaunchScreen.storyboard */; };
-		BA3A4D3D1C6D86A000765904 /* World_MapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D3C1C6D86A000765904 /* World_MapperTests.m */; };
-		BA3A4D481C6D86A000765904 /* World_MapperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D471C6D86A000765904 /* World_MapperUITests.m */; };
 		BA3A4D901C6D8C3800765904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D8F1C6D8C3800765904 /* AppDelegate.swift */; };
 		BA3A4D921C6D8C3E00765904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D911C6D8C3E00765904 /* ViewController.swift */; };
 		BABB613C1C6D941A003D3E71 /* DataEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB61361C6D941A003D3E71 /* DataEvent.swift */; };
@@ -51,11 +49,7 @@
 		BA3A4D311C6D86A000765904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA3A4D331C6D86A000765904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA3A4D381C6D86A000765904 /* World MapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World MapperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA3A4D3C1C6D86A000765904 /* World_MapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_MapperTests.m; sourceTree = "<group>"; };
-		BA3A4D3E1C6D86A000765904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA3A4D431C6D86A000765904 /* World MapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World MapperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA3A4D471C6D86A000765904 /* World_MapperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_MapperUITests.m; sourceTree = "<group>"; };
-		BA3A4D491C6D86A000765904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA3A4D8F1C6D8C3800765904 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../fggfg/fggfg/AppDelegate.swift; sourceTree = "<group>"; };
 		BA3A4D911C6D8C3E00765904 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../fggfg/fggfg/ViewController.swift; sourceTree = "<group>"; };
 		BABB61341C6D93C8003D3E71 /* World Mapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Mapper-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -110,8 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				BA3A4D211C6D86A000765904 /* World Mapper */,
-				BA3A4D3B1C6D86A000765904 /* World MapperTests */,
-				BA3A4D461C6D86A000765904 /* World MapperUITests */,
 				BA3A4D201C6D86A000765904 /* Products */,
 				DEB24EF9FC8A4F0387A21BAB /* Pods */,
 				3D59EFDE2040DCB62F2A824C /* Frameworks */,
@@ -142,24 +134,6 @@
 				BABB61421C6D947F003D3E71 /* Keys.swift */,
 			);
 			path = "World Mapper";
-			sourceTree = "<group>";
-		};
-		BA3A4D3B1C6D86A000765904 /* World MapperTests */ = {
-			isa = PBXGroup;
-			children = (
-				BA3A4D3C1C6D86A000765904 /* World_MapperTests.m */,
-				BA3A4D3E1C6D86A000765904 /* Info.plist */,
-			);
-			path = "World MapperTests";
-			sourceTree = "<group>";
-		};
-		BA3A4D461C6D86A000765904 /* World MapperUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BA3A4D471C6D86A000765904 /* World_MapperUITests.m */,
-				BA3A4D491C6D86A000765904 /* Info.plist */,
-			);
-			path = "World MapperUITests";
 			sourceTree = "<group>";
 		};
 		BABB61351C6D941A003D3E71 /* Parse */ = {
@@ -382,7 +356,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA3A4D3D1C6D86A000765904 /* World_MapperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +363,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA3A4D481C6D86A000765904 /* World_MapperUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
