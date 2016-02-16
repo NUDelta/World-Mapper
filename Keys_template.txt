@@ -9,6 +9,7 @@
 import Foundation
 
 // COPY THIS FILE INTO YOUR PROJECT AND SAVE IT AS Keys.swift, with your own Parse Keys
+// Make sure to drag it from the Finder into xcode in your project
 
 let __DEV_MODE = true
 //let __DEV_MODE = false

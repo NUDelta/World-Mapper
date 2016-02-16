@@ -14,12 +14,12 @@
 		BA3A4D321C6D86A000765904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3A4D301C6D86A000765904 /* LaunchScreen.storyboard */; };
 		BA3A4D901C6D8C3800765904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D8F1C6D8C3800765904 /* AppDelegate.swift */; };
 		BA3A4D921C6D8C3E00765904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A4D911C6D8C3E00765904 /* ViewController.swift */; };
-		BABB613C1C6D941A003D3E71 /* DataEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB61361C6D941A003D3E71 /* DataEvent.swift */; };
-		BABB613D1C6D941A003D3E71 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB61371C6D941A003D3E71 /* Experience.swift */; };
-		BABB613E1C6D941A003D3E71 /* LocationUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB61381C6D941A003D3E71 /* LocationUpdate.swift */; };
-		BABB613F1C6D941A003D3E71 /* MotionActivityUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB61391C6D941A003D3E71 /* MotionActivityUpdate.swift */; };
-		BABB61401C6D941A003D3E71 /* SensorMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB613A1C6D941A003D3E71 /* SensorMoment.swift */; };
-		BABB61411C6D941A003D3E71 /* WorldObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB613B1C6D941A003D3E71 /* WorldObject.swift */; };
+		BA3FC6531C7379250048EC2D /* DataEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC64D1C7379250048EC2D /* DataEvent.swift */; };
+		BA3FC6541C7379250048EC2D /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC64E1C7379250048EC2D /* Experience.swift */; };
+		BA3FC6551C7379250048EC2D /* LocationUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC64F1C7379250048EC2D /* LocationUpdate.swift */; };
+		BA3FC6561C7379250048EC2D /* MotionActivityUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC6501C7379250048EC2D /* MotionActivityUpdate.swift */; };
+		BA3FC6571C7379250048EC2D /* SensorMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC6511C7379250048EC2D /* SensorMoment.swift */; };
+		BA3FC6581C7379250048EC2D /* WorldObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC6521C7379250048EC2D /* WorldObject.swift */; };
 		BABB61431C6D947F003D3E71 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB61421C6D947F003D3E71 /* Keys.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,13 +52,13 @@
 		BA3A4D431C6D86A000765904 /* World MapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World MapperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3A4D8F1C6D8C3800765904 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		BA3A4D911C6D8C3E00765904 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		BA3FC64D1C7379250048EC2D /* DataEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEvent.swift; sourceTree = "<group>"; };
+		BA3FC64E1C7379250048EC2D /* Experience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		BA3FC64F1C7379250048EC2D /* LocationUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationUpdate.swift; sourceTree = "<group>"; };
+		BA3FC6501C7379250048EC2D /* MotionActivityUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionActivityUpdate.swift; sourceTree = "<group>"; };
+		BA3FC6511C7379250048EC2D /* SensorMoment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorMoment.swift; sourceTree = "<group>"; };
+		BA3FC6521C7379250048EC2D /* WorldObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldObject.swift; sourceTree = "<group>"; };
 		BABB61341C6D93C8003D3E71 /* World Mapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Mapper-Bridging-Header.h"; sourceTree = "<group>"; };
-		BABB61361C6D941A003D3E71 /* DataEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEvent.swift; sourceTree = "<group>"; };
-		BABB61371C6D941A003D3E71 /* Experience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
-		BABB61381C6D941A003D3E71 /* LocationUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationUpdate.swift; sourceTree = "<group>"; };
-		BABB61391C6D941A003D3E71 /* MotionActivityUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionActivityUpdate.swift; sourceTree = "<group>"; };
-		BABB613A1C6D941A003D3E71 /* SensorMoment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorMoment.swift; sourceTree = "<group>"; };
-		BABB613B1C6D941A003D3E71 /* WorldObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldObject.swift; sourceTree = "<group>"; };
 		BABB61421C6D947F003D3E71 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		E83B75DAA94B2571A538CDF9 /* Pods_World_Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_World_Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDA149C9BC80A1928C32317 /* Pods-World Mapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Mapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Mapper/Pods-World Mapper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		BA3A4D211C6D86A000765904 /* World Mapper */ = {
 			isa = PBXGroup;
 			children = (
-				BABB61351C6D941A003D3E71 /* Parse */,
+				BA3FC64C1C7379250048EC2D /* Parse */,
 				BA3A4D8F1C6D8C3800765904 /* AppDelegate.swift */,
 				BA3A4D2B1C6D86A000765904 /* Main.storyboard */,
 				BA3A4D911C6D8C3E00765904 /* ViewController.swift */,
@@ -136,18 +136,17 @@
 			path = "World Mapper";
 			sourceTree = "<group>";
 		};
-		BABB61351C6D941A003D3E71 /* Parse */ = {
+		BA3FC64C1C7379250048EC2D /* Parse */ = {
 			isa = PBXGroup;
 			children = (
-				BABB61361C6D941A003D3E71 /* DataEvent.swift */,
-				BABB61371C6D941A003D3E71 /* Experience.swift */,
-				BABB61381C6D941A003D3E71 /* LocationUpdate.swift */,
-				BABB61391C6D941A003D3E71 /* MotionActivityUpdate.swift */,
-				BABB613A1C6D941A003D3E71 /* SensorMoment.swift */,
-				BABB613B1C6D941A003D3E71 /* WorldObject.swift */,
+				BA3FC64D1C7379250048EC2D /* DataEvent.swift */,
+				BA3FC64E1C7379250048EC2D /* Experience.swift */,
+				BA3FC64F1C7379250048EC2D /* LocationUpdate.swift */,
+				BA3FC6501C7379250048EC2D /* MotionActivityUpdate.swift */,
+				BA3FC6511C7379250048EC2D /* SensorMoment.swift */,
+				BA3FC6521C7379250048EC2D /* WorldObject.swift */,
 			);
-			name = Parse;
-			path = "../../../../Fall15/EECS495-Zhang/Zombies-Interactive/Zombies Interactive/classes/ExperienceKit/Parse";
+			path = Parse;
 			sourceTree = "<group>";
 		};
 		DEB24EF9FC8A4F0387A21BAB /* Pods */ = {
@@ -340,15 +339,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABB613F1C6D941A003D3E71 /* MotionActivityUpdate.swift in Sources */,
+				BA3FC6561C7379250048EC2D /* MotionActivityUpdate.swift in Sources */,
 				BA3A4D921C6D8C3E00765904 /* ViewController.swift in Sources */,
 				BA3A4D901C6D8C3800765904 /* AppDelegate.swift in Sources */,
-				BABB613C1C6D941A003D3E71 /* DataEvent.swift in Sources */,
-				BABB613E1C6D941A003D3E71 /* LocationUpdate.swift in Sources */,
-				BABB61411C6D941A003D3E71 /* WorldObject.swift in Sources */,
-				BABB613D1C6D941A003D3E71 /* Experience.swift in Sources */,
+				BA3FC6531C7379250048EC2D /* DataEvent.swift in Sources */,
+				BA3FC6551C7379250048EC2D /* LocationUpdate.swift in Sources */,
+				BA3FC6581C7379250048EC2D /* WorldObject.swift in Sources */,
+				BA3FC6541C7379250048EC2D /* Experience.swift in Sources */,
 				BABB61431C6D947F003D3E71 /* Keys.swift in Sources */,
-				BABB61401C6D941A003D3E71 /* SensorMoment.swift in Sources */,
+				BA3FC6571C7379250048EC2D /* SensorMoment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
