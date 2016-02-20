@@ -95,6 +95,20 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmI-q2-51L">
+                                <rect key="frame" x="95" y="226" width="131" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="MbE-4B-kuG"/>
+                                    <constraint firstAttribute="height" constant="60" id="mOB-SV-Kdy"/>
+                                </constraints>
+                                <state key="normal" title="Other">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordOther:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0jd-Ir-ku4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -125,6 +139,7 @@
                             <constraint firstItem="fKL-9G-aMy" firstAttribute="top" secondItem="I3I-BP-R2d" secondAttribute="bottom" constant="8" symbolic="YES" id="kLq-we-SdZ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QoG-HN-VXM" secondAttribute="bottom" constant="8" symbolic="YES" id="ljd-1a-3ag"/>
                             <constraint firstItem="QoG-HN-VXM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qJS-M0-Y9O"/>
+                            <constraint firstItem="pmI-q2-51L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qTR-yR-ttV"/>
                             <constraint firstItem="I3I-BP-R2d" firstAttribute="top" secondItem="H22-AK-aXw" secondAttribute="bottom" constant="8" symbolic="YES" id="r81-7O-PX7"/>
                             <constraint firstItem="H22-AK-aXw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="sBB-zN-Hi7"/>
                             <constraint firstItem="zqi-rp-eQa" firstAttribute="trailing" secondItem="P7c-LY-KNM" secondAttribute="trailing" id="tiS-E4-hce"/>
@@ -132,6 +147,7 @@
                             <constraint firstItem="QoG-HN-VXM" firstAttribute="top" secondItem="BWE-q5-RnX" secondAttribute="bottom" constant="8" symbolic="YES" id="x7f-du-01m"/>
                             <constraint firstItem="I3I-BP-R2d" firstAttribute="height" secondItem="r1N-EB-vTm" secondAttribute="height" id="yPy-Ev-L4u"/>
                             <constraint firstAttribute="trailingMargin" secondItem="H22-AK-aXw" secondAttribute="trailing" constant="16" id="ybF-nz-NLk"/>
+                            <constraint firstItem="pmI-q2-51L" firstAttribute="top" secondItem="fKL-9G-aMy" secondAttribute="bottom" constant="8" symbolic="YES" id="zte-8q-4LL"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">

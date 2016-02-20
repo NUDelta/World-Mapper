@@ -42,8 +42,24 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         recordWorldObject("tall_building")
     }
     
+    @IBAction func recordOther(sender: UIButton) {
+        
+        let passwordPrompt = UIAlertController(title: "Enter object type", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+        
+        passwordPrompt.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
+            if let tf = passwordPrompt.textFields?[0],
+                ob = tf.text {
+                self.recordWorldObject(ob)
+            }
+        }))
+        passwordPrompt.addTextFieldWithConfigurationHandler({(textField: UITextField!) in
+            textField.placeholder = "Object type"
+            textField.secureTextEntry = false
+        })
 
-    
+        presentViewController(passwordPrompt, animated: true, completion: nil)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
